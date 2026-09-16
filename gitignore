@@ -1,0 +1,31 @@
+# ── Secrets — NEVER commit these ────────────────────────────
+.env
+*.key
+*.pem
+
+# ── Hardhat build artifacts ───────────────────────────────────
+artifacts/
+cache/
+typechain-types/
+
+# ── Node ─────────────────────────────────────────────────────
+node_modules/
+
+# ── Coverage reports ──────────────────────────────────────────
+coverage/
+coverage.json
+
+# ── Gas report (regenerate with: REPORT_GAS=true npx hardhat test)
+docs/gas-report.txt
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+
+# ── AI session logs (keep prompts private) ────────────────────
+ai-sessions/
+*.session.json
