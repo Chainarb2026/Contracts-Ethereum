@@ -8,20 +8,20 @@
 module.exports = function (deployerAddress, network) {
   const args = {
     sepolia: [
-      "Production Token",           // name
-      "PROD",                        // symbol
+      "Chainarb's Utility Token",           // name
+      "CARB",                        // symbol
       deployerAddress,               // owner — change to multisig for mainnet
       deployerAddress,               // treasury — change to separate wallet
     ],
     mainnet: [
-      "Production Token",
-      "PROD",
+      "Chainarb's Utility Token",
+      "CARB",
       "0x_MULTISIG_ADDRESS_HERE",   // must be Gnosis Safe for mainnet
       "0x_TREASURY_ADDRESS_HERE",
     ],
     localhost: [
-      "Production Token",
-      "PROD",
+      "Chainarb's Utility Token",
+      "CARB",
       deployerAddress,
       deployerAddress,
     ],
